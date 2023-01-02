@@ -4,7 +4,7 @@
 Creates a list of lists of integers representing
 the Pascal's triangle of a given integer.
 '''
-def Pascal_triangle(n):
+def pascal_triangle(n):
   triangle = []
   if type(n) is not int or n <=0:
     return triangle;
